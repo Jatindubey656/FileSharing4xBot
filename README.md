@@ -1,4 +1,4 @@
-## @Sathish_films_bot
+## @TKS_MOVIES_BOT
 
 ### Admin Commands
 
