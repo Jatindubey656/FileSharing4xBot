@@ -3,12 +3,10 @@ services:
   - type: web
     name: webdis
     env: docker
-    repo: https://github.com/render-examples/webdis.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: master # optional (defaults to master)
-    rootDir: webdis
-    dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
+    dockerCommand: python3 main.py # optional (defaults to Dockerfile command)
     numInstances: 3 # optional (defaults to 1)
     healthCheckPath: /
     envVars:
