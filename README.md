@@ -1,7 +1,9 @@
-
+## 😣 Join update
+``
+https://t.me/DollyBots
+``
 
 ### Admin Commands
-
 ```
 /start - start the bot or get posts
 /batch - create link for more than one posts
